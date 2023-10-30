@@ -48,6 +48,9 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  display: flex;
+  place-items: center;
+  gap: 0.3em;
 }
 button:hover {
   border-color: #646cff;
@@ -72,4 +75,9 @@ button:focus-visible {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
 }
